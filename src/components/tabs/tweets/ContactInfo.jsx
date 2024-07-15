@@ -59,7 +59,7 @@ function ContactInfo() {
           @vanilla_paracetamol (personal)
         </div>
       </div>
-      <h1 className="mt-3 text-sm font-medium text-[#CC0088] sm:text-base">
+      <h1 className="mt-10 text-sm font-medium text-[#CC0088] sm:text-base">
         #ContactMe #Email #Phone #SocialMedia
       </h1>
     </Tweet>

@@ -33,14 +33,18 @@ function BigProjects() {
         >
           Sqrel
         </a>
-        <div className="relative  aspect-video w-full">
+        <a
+          href="https://sqrel.vercel.app/"
+          target="_blank"
+          className="relative  aspect-video w-full"
+        >
           <Image
             alt="sqrel"
             src="/sqrel.png"
             layout="fill"
             className="rounded-2xl object-cover"
           />
-        </div>
+        </a>
         <p className=" text-sm sm:text-base">
           Sqrel is a fictional single-page application with a visually appealing
           and user-friendly interface, demonstrating modern web technologies.
@@ -64,14 +68,18 @@ function BigProjects() {
         >
           Tolodon
         </a>
-        <div className="relative  aspect-video w-full">
+        <a
+          href="https://tolodon.vercel.app/"
+          target="_blank"
+          className="relative  aspect-video w-full"
+        >
           <Image
             alt="tolodon"
             src="/tolodon.png"
             layout="fill"
             className="rounded-2xl object-cover"
           />
-        </div>
+        </a>
         <p className="text-sm sm:text-base">
           Tolodon is a conceptual commerce site that blends aesthetic with
           practicality. Leveraging design and assets from{' '}
