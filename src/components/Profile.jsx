@@ -24,7 +24,10 @@ function Profile() {
             alt="profile pic"
           />
         </div>
-        <button className="flex items-center rounded-full bg-[#CC0088] px-5 py-2 text-xs font-medium text-white md:text-base">
+        <a
+          href="mailto:agustiomaitimu04@gmail.com"
+          className="flex items-center rounded-full bg-[#CC0088] px-5 py-2 text-xs font-medium text-white md:text-base"
+        >
           Message
           <div className="relative ml-2 aspect-square w-5">
             <Image
@@ -34,7 +37,7 @@ function Profile() {
               src="/mail.svg"
             />
           </div>
-        </button>
+        </a>
       </div>
       <div className="flex w-full max-w-[640px] flex-col gap-3 px-6 text-white">
         <h1 className="flex items-center gap-2 text-2xl font-semibold text-white">
@@ -102,7 +105,7 @@ function Profile() {
             <h1>Joined September 2023</h1>
           </div>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-7">
           <p>
             <span className="font-bold">
               {Math.floor(
