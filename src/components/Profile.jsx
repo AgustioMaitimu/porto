@@ -3,7 +3,7 @@ import React from 'react';
 
 function Profile() {
   return (
-    <div className="flex w-full flex-col items-center">
+    <div className="z-10 flex w-full flex-col items-center">
       <div className="relative aspect-wide w-full max-w-[768px]">
         <Image
           alt="banner"
@@ -56,7 +56,6 @@ function Profile() {
           </h1>
           <h1>- Michael Scott</h1>
         </div>
-
         <div className="flex w-full flex-wrap">
           <div className="mb-2 mr-6 flex items-center gap-2 text-sm">
             <div className="relative aspect-square w-5">
@@ -102,6 +101,24 @@ function Profile() {
             </div>
             <h1>Joined September 2023</h1>
           </div>
+        </div>
+        <div className="flex gap-3">
+          <p>
+            <span className="font-bold">
+              {Math.floor(
+                (new Date() - new Date('2004-08-20')) / (1000 * 60 * 60 * 24),
+              ).toLocaleString()}
+            </span>{' '}
+            Days Lived
+          </p>
+          <p>
+            <span className="font-bold">
+              {Math.floor(
+                (new Date() - new Date('2023-09-04')) / (1000 * 60 * 60 * 24),
+              ).toLocaleString()}
+            </span>{' '}
+            Days Coded
+          </p>
         </div>
       </div>
     </div>

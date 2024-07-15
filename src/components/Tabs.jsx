@@ -10,7 +10,7 @@ function Tabs() {
   const [currentTab, setCurrentTab] = useState('Work');
 
   return (
-    <div className="mt-14 flex w-full max-w-[640px] flex-col pb-32">
+    <div className="z-10 mt-12 flex w-full max-w-[640px] flex-col pb-32">
       <div className="flex justify-around text-sm font-bold">
         {['Feed', 'Work', 'Contact', 'About'].map((x, index) => {
           return (
