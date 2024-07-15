@@ -1,9 +1,9 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 
 function Tweet({ children }) {
   return (
-    <div className="flex w-full border-b border-gray-800 px-4 py-5 first:border-t">
+    <div className="flex w-full border-b border-gray-800 px-4 py-8 first:border-t">
       <div>
         <div className="relative aspect-square w-10">
           <Image

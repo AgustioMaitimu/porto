@@ -15,7 +15,10 @@ function SmallProjects() {
           <h1 className="mt-1 text-xs font-light text-gray-400">15 Jul 2024</h1>
         </div>
       </div>
-      <h1 className="mt-1 text-xl font-bold sm:text-2xl">Learning Projects</h1>
+      <h1 className="mt-1 w-fit rounded-full bg-[#495057] px-3 py-1 text-white">
+        🔧 Learning
+      </h1>
+      <h1 className="mt-4 text-xl font-bold sm:text-2xl">Learning Projects</h1>
       <p className="mt-3 text-sm sm:text-base">
         Showcasing My Journey Through The Small Projects I Made Along The Way.
       </p>
@@ -24,7 +27,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/strekker-site/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Strekker
         </a>
@@ -37,7 +40,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/synergix-solutions/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Synergix
         </a>
@@ -49,7 +52,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/perform.it/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Perform.it
         </a>
@@ -62,7 +65,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/yomo-note/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Yomo Note
         </a>
@@ -75,7 +78,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/kalculator/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Kalculator
         </a>
@@ -88,7 +91,7 @@ function SmallProjects() {
         <a
           href="https://agustiomaitimu.github.io/pixeler/"
           target="_blank"
-          className="font-semibold text-[#af2a5d] underline underline-offset-2"
+          className="font-semibold text-[#CC0088] underline underline-offset-2"
         >
           Pixeler
         </a>
@@ -97,6 +100,9 @@ function SmallProjects() {
           JavaScript, Not optimized for mobile
         </p>
       </div>
+      <h1 className="mt-10 text-sm font-medium text-[#CC0088] sm:text-base">
+        #LearningProjects #FrontEndDevelopment
+      </h1>
     </Tweet>
   );
 }

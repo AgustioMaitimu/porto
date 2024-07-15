@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 
 function Profile() {
@@ -8,20 +8,23 @@ function Profile() {
         <Image
           alt="banner"
           src="/banner.gif"
+          unoptimized
           layout="fill"
           className="object-cover"
+          priority
         />
       </div>
       <div className="flex w-full max-w-[640px] items-end justify-between border-b-4 border-[#16191D] px-6 pb-4">
         <div className="relative -mt-[16.5%] aspect-square w-[33%] rounded-full border-4 border-white sm:-mt-[11%] sm:w-[22%]">
           <Image
             src="/profile.gif"
+            unoptimized
             layout="fill"
             className="rounded-full object-cover"
             alt="profile pic"
           />
         </div>
-        <button className="flex items-center rounded-full bg-[#af2a5d] px-5 py-2 text-xs font-medium text-white md:text-base">
+        <button className="flex items-center rounded-full bg-[#CC0088] px-5 py-2 text-xs font-medium text-white md:text-base">
           Message
           <div className="relative ml-2 aspect-square w-5">
             <Image

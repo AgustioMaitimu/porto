@@ -1,9 +1,10 @@
 'use client';
 
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React, { useState } from 'react';
 import About from './tabs/About';
 import Work from './tabs/Work';
+import Contact from './tabs/Contact';
 
 function Tabs() {
   const [currentTab, setCurrentTab] = useState('Work');
@@ -24,7 +25,7 @@ function Tabs() {
                 {x}
               </h1>
               <div
-                className={`${currentTab == x ? 'opacity-100' : 'opacity-0'} h-1 w-full rounded-full bg-[#af2a5d] transition-all duration-300`}
+                className={`${currentTab == x ? 'opacity-100' : 'opacity-0'} h-1 w-full rounded-full bg-[#CC0088] transition-all duration-300`}
               ></div>
             </div>
           );
@@ -32,6 +33,7 @@ function Tabs() {
       </div>
       {currentTab == 'About' && <About />}
       {currentTab == 'Work' && <Work />}
+      {currentTab == 'Contact' && <Contact />}
     </div>
   );
 }

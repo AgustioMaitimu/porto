@@ -2,10 +2,10 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="flex flex-col gap-2 border-y border-gray-800 px-4 py-5 text-white">
-      <h1 className="text-3xl font-bold text-[#af2a5d]">Tio.</h1>
+    <div className="flex flex-col gap-2 border-y border-gray-800 px-4 py-10 text-white">
+      <h1 className="text-3xl font-bold text-[#CC0088]">Tio.</h1>
       <p className=" mb-5">
-        Hello! I&apos;m Agus<span className="text-[#af2a5d]">tio</span> Maitimu.
+        Hello! I&apos;m Agus<span className="text-[#CC0088]">tio</span> Maitimu.
       </p>
       <p className="mb-5">
         I am a 20-year-old Information Systems student at Universitas Siber
