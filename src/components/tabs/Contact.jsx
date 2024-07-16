@@ -1,6 +1,6 @@
 import React from 'react';
 import Tweet from './tweets/Tweet';
-import ContactInfo from './tweets/ContactInfo';
+import ContactInfo from './tweets/contact/ContactInfo';
 
 function Contact() {
   return (

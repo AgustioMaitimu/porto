@@ -31,6 +31,13 @@ function About() {
         to connect and collaborate, so feel free to reach out!
       </p>
       <p className="font-bold">Thank you for stopping by!</p>
+      <a
+        href="/Agustio-Maitimu-Resume.pdf"
+        className="mt-4 text-[#CC0088]"
+        download
+      >
+        Download Resume
+      </a>
     </div>
   );
 }

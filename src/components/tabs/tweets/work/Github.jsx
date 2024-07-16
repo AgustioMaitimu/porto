@@ -1,6 +1,6 @@
 import Image from 'next/legacy/image';
 import React from 'react';
-import Tweet from './Tweet';
+import Tweet from '../Tweet';
 
 function Github() {
   return (

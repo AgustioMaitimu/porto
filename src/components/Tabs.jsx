@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import About from './tabs/About';
 import Work from './tabs/Work';
 import Contact from './tabs/Contact';
+import Feed from './tabs/Feed';
 
 function Tabs() {
   const [currentTab, setCurrentTab] = useState('Work');
@@ -34,6 +35,7 @@ function Tabs() {
       {currentTab == 'About' && <About />}
       {currentTab == 'Work' && <Work />}
       {currentTab == 'Contact' && <Contact />}
+      {currentTab == 'Feed' && <Feed />}
     </div>
   );
 }
